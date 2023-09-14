@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <main>
+    <div class="main--container">
+      <div class="main--head">SPLITTER</div>
+      <div class="main--wrapper">
+        <section class="main--left">
+          <div class="bill-container">
+            <label>Bill</label>
+            <input type="text" placeholder="bill">
+          </div>
+          <div class="button-tip-container">
+            <p>Select Tip %</p>
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button>
+            <button>50%</button>
+            <input type="text" placeholder="Custom">
+          </div>
+          <div class="people-container">
+            <label for="">Number of People</label>
+            <input type="text" placeholder="people">
+          </div>
+        </section>
+        <section class="main--right">
+          <div class="main-right--container">
+            <div class="tip-amount">
+              Tip Amount
+              / person
+            </div>
+            <div class="total-person">
+              Total
+              / person
+            </div>
+            <button>Reset</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
